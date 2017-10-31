@@ -12,6 +12,7 @@
 		27657FA01FA9079800D7BF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27657F9E1FA9079800D7BF8A /* Main.storyboard */; };
 		27657FA21FA9079800D7BF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27657FA11FA9079800D7BF8A /* Assets.xcassets */; };
 		27657FA51FA9079800D7BF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27657FA31FA9079800D7BF8A /* LaunchScreen.storyboard */; };
+		27657FAD1FA9093E00D7BF8A /* IMG_1225.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27657FAC1FA9093E00D7BF8A /* IMG_1225.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		27657FA11FA9079800D7BF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27657FA41FA9079800D7BF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27657FA61FA9079800D7BF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27657FAC1FA9093E00D7BF8A /* IMG_1225.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1225.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		27657F991FA9079800D7BF8A /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
+				27657FAC1FA9093E00D7BF8A /* IMG_1225.jpg */,
 				27657F9A1FA9079800D7BF8A /* AppDelegate.swift */,
 				27657F9C1FA9079800D7BF8A /* ViewController.swift */,
 				27657F9E1FA9079800D7BF8A /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					27657F961FA9079800D7BF8A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 898KUQX63L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27657FA51FA9079800D7BF8A /* LaunchScreen.storyboard in Resources */,
+				27657FAD1FA9093E00D7BF8A /* IMG_1225.jpg in Resources */,
 				27657FA21FA9079800D7BF8A /* Assets.xcassets in Resources */,
 				27657FA01FA9079800D7BF8A /* Main.storyboard in Resources */,
 			);
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 898KUQX63L;
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carolgreenberg.PhotoFilters;
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 898KUQX63L;
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carolgreenberg.PhotoFilters;

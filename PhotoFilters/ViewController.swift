@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         // Create an image to filter
         let inputImage = CIImage(image: photoImageView.image!)
         
+        
         // Create a random color to pass to a filter
         let randomColor = [kCIInputAngleKey: (Double(arc4random_uniform(314)) / 100)]
         
